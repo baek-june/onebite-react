@@ -31,6 +31,8 @@ export default [
       'react/jsx-no-target-blank': 'off',
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       'react/no-unused-prop-types': 'off',
+      'react/prop-types' : 'off',
     },
+    extends: ['eslint:recommended',  'plugin:react/recommended']
   },
 ];
